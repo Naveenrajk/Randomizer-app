@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Un-bored</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script>
+        var username = prompt("What's your name?");
+        var ideas = [
+            'Code',
+            'Play Minecraft',
+            'Watch YouTube',
+            'Go live on Instagram',
+            'Go outside',
+            'Play something new on Itch.io',
+            'Play a random game on Playstore',
+            'Play a chess game',
+            'Check Twitter',
+            'Check Discord',
+            'Open and contribute to pull requests',
+            'Learn a new language',
+            'Eat food',
+            'Talk to a friend',
+            'Play Badmiton',
+            'Write a book',
+            'Make a scrapbook',
+            'Drink water',
+            'Scroll Instagram Posts',
+            'Watch a movie',
+            'Make a Funny Website',
+            'Learn keyboard shortcuts'
+        ];
+
+        var randomNumber = Math.floor(Math.random() * ideas.length);
+        var youridea = ideas[randomNumber];
+        document.write("<h1>Hello " + username + "," + " here's an idea: " + youridea + ".</h1>");
+    </script>
+
+</head>
+
+<body>
+
+    <a href="generator.html">Another one</a> <a href="index.html">Home</a>
+
+</body>
+
+</html>
